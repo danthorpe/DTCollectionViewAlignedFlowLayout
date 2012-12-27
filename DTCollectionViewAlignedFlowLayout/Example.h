@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSTCollectionView.h"
 
-@interface DTViewController : UIViewController
+@interface Example : PSUICollectionViewController
 
 @end

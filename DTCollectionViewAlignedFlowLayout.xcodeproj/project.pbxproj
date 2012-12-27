@@ -16,14 +16,27 @@
 		65B5779C168CC6B600789297 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B5779B168CC6B600789297 /* Default.png */; };
 		65B5779E168CC6B600789297 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B5779D168CC6B600789297 /* Default@2x.png */; };
 		65B577A0168CC6B600789297 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B5779F168CC6B600789297 /* Default-568h@2x.png */; };
-		65B577A3168CC6B600789297 /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577A2168CC6B600789297 /* DTViewController.m */; };
-		65B577A6168CC6B600789297 /* DTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B577A4168CC6B600789297 /* DTViewController_iPhone.xib */; };
-		65B577A9168CC6B600789297 /* DTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B577A7168CC6B600789297 /* DTViewController_iPad.xib */; };
+		65B577A3168CC6B600789297 /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577A2168CC6B600789297 /* Example.m */; };
 		65B577B1168CC6B600789297 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B577B0168CC6B600789297 /* SenTestingKit.framework */; };
 		65B577B2168CC6B600789297 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B57789168CC6B500789297 /* UIKit.framework */; };
 		65B577B3168CC6B600789297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B5778B168CC6B500789297 /* Foundation.framework */; };
 		65B577BB168CC6B600789297 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B577B9168CC6B600789297 /* InfoPlist.strings */; };
 		65B577BE168CC6B600789297 /* DTCollectionViewAlignedFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577BD168CC6B600789297 /* DTCollectionViewAlignedFlowLayoutTests.m */; };
+		65B577E5168CC7E400789297 /* PSTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577CD168CC7E400789297 /* PSTCollectionView.m */; };
+		65B577E6168CC7E400789297 /* PSTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577CF168CC7E400789297 /* PSTCollectionViewCell.m */; };
+		65B577E7168CC7E400789297 /* PSTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577D2168CC7E400789297 /* PSTCollectionViewController.m */; };
+		65B577E8168CC7E400789297 /* PSTCollectionViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577D4168CC7E400789297 /* PSTCollectionViewData.m */; };
+		65B577E9168CC7E400789297 /* PSTCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577D6168CC7E400789297 /* PSTCollectionViewFlowLayout.m */; };
+		65B577EA168CC7E400789297 /* PSTCollectionViewItemKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577D8168CC7E400789297 /* PSTCollectionViewItemKey.m */; };
+		65B577EB168CC7E400789297 /* PSTCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577DA168CC7E400789297 /* PSTCollectionViewLayout.m */; };
+		65B577EC168CC7E400789297 /* PSTCollectionViewUpdateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577DC168CC7E400789297 /* PSTCollectionViewUpdateItem.m */; };
+		65B577ED168CC7E400789297 /* PSTGridLayoutInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577DE168CC7E400789297 /* PSTGridLayoutInfo.m */; };
+		65B577EE168CC7E400789297 /* PSTGridLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577E0168CC7E400789297 /* PSTGridLayoutItem.m */; };
+		65B577EF168CC7E400789297 /* PSTGridLayoutRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577E2168CC7E400789297 /* PSTGridLayoutRow.m */; };
+		65B577F0168CC7E500789297 /* PSTGridLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577E4168CC7E400789297 /* PSTGridLayoutSection.m */; };
+		65B577F5168CC8B500789297 /* DTCollectionViewAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577F4168CC8B500789297 /* DTCollectionViewAlignedFlowLayout.m */; };
+		65B577F8168CCA7600789297 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B577F7168CCA7600789297 /* QuartzCore.framework */; };
+		65B577FB168CCE5D00789297 /* ExampleTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B577FA168CCE5D00789297 /* ExampleTestCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,16 +63,44 @@
 		65B5779B168CC6B600789297 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		65B5779D168CC6B600789297 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		65B5779F168CC6B600789297 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		65B577A1168CC6B600789297 /* DTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTViewController.h; sourceTree = "<group>"; };
-		65B577A2168CC6B600789297 /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
-		65B577A5168CC6B600789297 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPhone.xib; sourceTree = "<group>"; };
-		65B577A8168CC6B600789297 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPad.xib; sourceTree = "<group>"; };
+		65B577A1168CC6B600789297 /* Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		65B577A2168CC6B600789297 /* Example.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example.m; sourceTree = "<group>"; };
 		65B577AF168CC6B600789297 /* DTCollectionViewAlignedFlowLayoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTCollectionViewAlignedFlowLayoutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B577B0168CC6B600789297 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		65B577B8168CC6B600789297 /* DTCollectionViewAlignedFlowLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTCollectionViewAlignedFlowLayoutTests-Info.plist"; sourceTree = "<group>"; };
 		65B577BA168CC6B600789297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65B577BC168CC6B600789297 /* DTCollectionViewAlignedFlowLayoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTCollectionViewAlignedFlowLayoutTests.h; sourceTree = "<group>"; };
 		65B577BD168CC6B600789297 /* DTCollectionViewAlignedFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTCollectionViewAlignedFlowLayoutTests.m; sourceTree = "<group>"; };
+		65B577CC168CC7E400789297 /* PSTCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionView.h; sourceTree = "<group>"; };
+		65B577CD168CC7E400789297 /* PSTCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionView.m; sourceTree = "<group>"; };
+		65B577CE168CC7E400789297 /* PSTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCell.h; sourceTree = "<group>"; };
+		65B577CF168CC7E400789297 /* PSTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewCell.m; sourceTree = "<group>"; };
+		65B577D0168CC7E400789297 /* PSTCollectionViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCommon.h; sourceTree = "<group>"; };
+		65B577D1168CC7E400789297 /* PSTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewController.h; sourceTree = "<group>"; };
+		65B577D2168CC7E400789297 /* PSTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewController.m; sourceTree = "<group>"; };
+		65B577D3168CC7E400789297 /* PSTCollectionViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewData.h; sourceTree = "<group>"; };
+		65B577D4168CC7E400789297 /* PSTCollectionViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewData.m; sourceTree = "<group>"; };
+		65B577D5168CC7E400789297 /* PSTCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		65B577D6168CC7E400789297 /* PSTCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		65B577D7168CC7E400789297 /* PSTCollectionViewItemKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewItemKey.h; sourceTree = "<group>"; };
+		65B577D8168CC7E400789297 /* PSTCollectionViewItemKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewItemKey.m; sourceTree = "<group>"; };
+		65B577D9168CC7E400789297 /* PSTCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewLayout.h; sourceTree = "<group>"; };
+		65B577DA168CC7E400789297 /* PSTCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewLayout.m; sourceTree = "<group>"; };
+		65B577DB168CC7E400789297 /* PSTCollectionViewUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewUpdateItem.h; sourceTree = "<group>"; };
+		65B577DC168CC7E400789297 /* PSTCollectionViewUpdateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewUpdateItem.m; sourceTree = "<group>"; };
+		65B577DD168CC7E400789297 /* PSTGridLayoutInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutInfo.h; sourceTree = "<group>"; };
+		65B577DE168CC7E400789297 /* PSTGridLayoutInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutInfo.m; sourceTree = "<group>"; };
+		65B577DF168CC7E400789297 /* PSTGridLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutItem.h; sourceTree = "<group>"; };
+		65B577E0168CC7E400789297 /* PSTGridLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutItem.m; sourceTree = "<group>"; };
+		65B577E1168CC7E400789297 /* PSTGridLayoutRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutRow.h; sourceTree = "<group>"; };
+		65B577E2168CC7E400789297 /* PSTGridLayoutRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutRow.m; sourceTree = "<group>"; };
+		65B577E3168CC7E400789297 /* PSTGridLayoutSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutSection.h; sourceTree = "<group>"; };
+		65B577E4168CC7E400789297 /* PSTGridLayoutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutSection.m; sourceTree = "<group>"; };
+		65B577F3168CC8B500789297 /* DTCollectionViewAlignedFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTCollectionViewAlignedFlowLayout.h; path = DTCollectionViewAlignedFlowLayout/DTCollectionViewAlignedFlowLayout.h; sourceTree = "<group>"; };
+		65B577F4168CC8B500789297 /* DTCollectionViewAlignedFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTCollectionViewAlignedFlowLayout.m; path = DTCollectionViewAlignedFlowLayout/DTCollectionViewAlignedFlowLayout.m; sourceTree = "<group>"; };
+		65B577F7168CCA7600789297 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		65B577F9168CCE5D00789297 /* ExampleTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTestCell.h; sourceTree = "<group>"; };
+		65B577FA168CCE5D00789297 /* ExampleTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTestCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B577F8168CCA7600789297 /* QuartzCore.framework in Frameworks */,
 				65B5778A168CC6B500789297 /* UIKit.framework in Frameworks */,
 				65B5778C168CC6B500789297 /* Foundation.framework in Frameworks */,
 				65B5778E168CC6B500789297 /* CoreGraphics.framework in Frameworks */,
@@ -89,8 +131,10 @@
 		65B5777A168CC6B500789297 = {
 			isa = PBXGroup;
 			children = (
-				65B5778F168CC6B500789297 /* DTCollectionViewAlignedFlowLayout */,
+				65B577F6168CC8DB00789297 /* DTCollectionViewAlignedFlowLayout */,
+				65B5778F168CC6B500789297 /* Example */,
 				65B577B6168CC6B600789297 /* DTCollectionViewAlignedFlowLayoutTests */,
+				65B577F2168CC7EF00789297 /* External */,
 				65B57788168CC6B500789297 /* Frameworks */,
 				65B57786168CC6B500789297 /* Products */,
 			);
@@ -108,6 +152,7 @@
 		65B57788168CC6B500789297 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65B577F7168CCA7600789297 /* QuartzCore.framework */,
 				65B57789168CC6B500789297 /* UIKit.framework */,
 				65B5778B168CC6B500789297 /* Foundation.framework */,
 				65B5778D168CC6B500789297 /* CoreGraphics.framework */,
@@ -116,17 +161,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		65B5778F168CC6B500789297 /* DTCollectionViewAlignedFlowLayout */ = {
+		65B5778F168CC6B500789297 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				65B57798168CC6B500789297 /* DTAppDelegate.h */,
 				65B57799168CC6B600789297 /* DTAppDelegate.m */,
-				65B577A1168CC6B600789297 /* DTViewController.h */,
-				65B577A2168CC6B600789297 /* DTViewController.m */,
-				65B577A4168CC6B600789297 /* DTViewController_iPhone.xib */,
-				65B577A7168CC6B600789297 /* DTViewController_iPad.xib */,
+				65B577A1168CC6B600789297 /* Example.h */,
+				65B577A2168CC6B600789297 /* Example.m */,
+				65B577F9168CCE5D00789297 /* ExampleTestCell.h */,
+				65B577FA168CCE5D00789297 /* ExampleTestCell.m */,
 				65B57790168CC6B500789297 /* Supporting Files */,
 			);
+			name = Example;
 			path = DTCollectionViewAlignedFlowLayout;
 			sourceTree = "<group>";
 		};
@@ -161,6 +207,56 @@
 				65B577B9168CC6B600789297 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65B577CB168CC7E400789297 /* PSTCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				65B577CC168CC7E400789297 /* PSTCollectionView.h */,
+				65B577CD168CC7E400789297 /* PSTCollectionView.m */,
+				65B577CE168CC7E400789297 /* PSTCollectionViewCell.h */,
+				65B577CF168CC7E400789297 /* PSTCollectionViewCell.m */,
+				65B577D0168CC7E400789297 /* PSTCollectionViewCommon.h */,
+				65B577D1168CC7E400789297 /* PSTCollectionViewController.h */,
+				65B577D2168CC7E400789297 /* PSTCollectionViewController.m */,
+				65B577D3168CC7E400789297 /* PSTCollectionViewData.h */,
+				65B577D4168CC7E400789297 /* PSTCollectionViewData.m */,
+				65B577D5168CC7E400789297 /* PSTCollectionViewFlowLayout.h */,
+				65B577D6168CC7E400789297 /* PSTCollectionViewFlowLayout.m */,
+				65B577D7168CC7E400789297 /* PSTCollectionViewItemKey.h */,
+				65B577D8168CC7E400789297 /* PSTCollectionViewItemKey.m */,
+				65B577D9168CC7E400789297 /* PSTCollectionViewLayout.h */,
+				65B577DA168CC7E400789297 /* PSTCollectionViewLayout.m */,
+				65B577DB168CC7E400789297 /* PSTCollectionViewUpdateItem.h */,
+				65B577DC168CC7E400789297 /* PSTCollectionViewUpdateItem.m */,
+				65B577DD168CC7E400789297 /* PSTGridLayoutInfo.h */,
+				65B577DE168CC7E400789297 /* PSTGridLayoutInfo.m */,
+				65B577DF168CC7E400789297 /* PSTGridLayoutItem.h */,
+				65B577E0168CC7E400789297 /* PSTGridLayoutItem.m */,
+				65B577E1168CC7E400789297 /* PSTGridLayoutRow.h */,
+				65B577E2168CC7E400789297 /* PSTGridLayoutRow.m */,
+				65B577E3168CC7E400789297 /* PSTGridLayoutSection.h */,
+				65B577E4168CC7E400789297 /* PSTGridLayoutSection.m */,
+			);
+			name = PSTCollectionView;
+			path = External/PSTCollectionView/PSTCollectionView;
+			sourceTree = "<group>";
+		};
+		65B577F2168CC7EF00789297 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				65B577CB168CC7E400789297 /* PSTCollectionView */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		65B577F6168CC8DB00789297 /* DTCollectionViewAlignedFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				65B577F3168CC8B500789297 /* DTCollectionViewAlignedFlowLayout.h */,
+				65B577F4168CC8B500789297 /* DTCollectionViewAlignedFlowLayout.m */,
+			);
+			name = DTCollectionViewAlignedFlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +335,6 @@
 				65B5779C168CC6B600789297 /* Default.png in Resources */,
 				65B5779E168CC6B600789297 /* Default@2x.png in Resources */,
 				65B577A0168CC6B600789297 /* Default-568h@2x.png in Resources */,
-				65B577A6168CC6B600789297 /* DTViewController_iPhone.xib in Resources */,
-				65B577A9168CC6B600789297 /* DTViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +371,21 @@
 			files = (
 				65B57796168CC6B500789297 /* main.m in Sources */,
 				65B5779A168CC6B600789297 /* DTAppDelegate.m in Sources */,
-				65B577A3168CC6B600789297 /* DTViewController.m in Sources */,
+				65B577A3168CC6B600789297 /* Example.m in Sources */,
+				65B577E5168CC7E400789297 /* PSTCollectionView.m in Sources */,
+				65B577E6168CC7E400789297 /* PSTCollectionViewCell.m in Sources */,
+				65B577E7168CC7E400789297 /* PSTCollectionViewController.m in Sources */,
+				65B577E8168CC7E400789297 /* PSTCollectionViewData.m in Sources */,
+				65B577E9168CC7E400789297 /* PSTCollectionViewFlowLayout.m in Sources */,
+				65B577EA168CC7E400789297 /* PSTCollectionViewItemKey.m in Sources */,
+				65B577EB168CC7E400789297 /* PSTCollectionViewLayout.m in Sources */,
+				65B577EC168CC7E400789297 /* PSTCollectionViewUpdateItem.m in Sources */,
+				65B577ED168CC7E400789297 /* PSTGridLayoutInfo.m in Sources */,
+				65B577EE168CC7E400789297 /* PSTGridLayoutItem.m in Sources */,
+				65B577EF168CC7E400789297 /* PSTGridLayoutRow.m in Sources */,
+				65B577F0168CC7E500789297 /* PSTGridLayoutSection.m in Sources */,
+				65B577F5168CC8B500789297 /* DTCollectionViewAlignedFlowLayout.m in Sources */,
+				65B577FB168CCE5D00789297 /* ExampleTestCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,22 +414,6 @@
 				65B57793168CC6B500789297 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		65B577A4168CC6B600789297 /* DTViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65B577A5168CC6B600789297 /* en */,
-			);
-			name = DTViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		65B577A7168CC6B600789297 /* DTViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65B577A8168CC6B600789297 /* en */,
-			);
-			name = DTViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		65B577B9168CC6B600789297 /* InfoPlist.strings */ = {
@@ -462,6 +554,7 @@
 				65B577C3168CC6B600789297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B577C4168CC6B600789297 /* Build configuration list for PBXNativeTarget "DTCollectionViewAlignedFlowLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +563,7 @@
 				65B577C6168CC6B600789297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

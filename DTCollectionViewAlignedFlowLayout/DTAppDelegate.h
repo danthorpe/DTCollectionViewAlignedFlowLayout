@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class DTViewController;
+@class Example;
 
 @interface DTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) DTViewController *viewController;
+@property (strong, nonatomic) Example *viewController;
 
 @end
